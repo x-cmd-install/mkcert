@@ -1,59 +1,59 @@
 # mkcert
 
-[中文版本](./README.cn.md)
+[English version](./README.md)
 
 A simple zero-config tool to make locally trusted development certificates with any names you'd like.
 
-![mkcert](https://repo.x-cmd.io/mkcert.svg)
+![mkcert](https://repo.x-cmd.io/mkcert.svg?lang=zh)
 
-## Install
+## 安装
 
 ```sh
 x install mkcert
 ```
 
-## Code insight
+## 代码规模
 
-Total: **1,136** lines of code across **8** files in the top 5 languages.
+合计: **1,136** 行代码（覆盖前 5 种语言、共 **8** 个文件）。
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
 | Go | 1,136 | 69 | 176 | 7 |
 | Markdown | 0 | 133 | 64 | 1 |
 
-## OpenSSF Scorecard
+## OpenSSF Scorecard 评分
 
-Overall score: **3.3 / 10**
+总评分: **3.3 / 10**
 
-Lowest-scoring checks:
+评分最低的几项:
 
 - **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Packaging** (-1/10) — packaging workflow not detected
 
-## Source
+## 源代码
 
-- **Upstream**: <https://github.com/FiloSottile/mkcert>
-- **Homepage**: <https://mkcert.dev>
-- **License**: BSD-3-Clause
+- **上游仓库**: <https://github.com/FiloSottile/mkcert>
+- **官网**: <https://mkcert.dev>
+- **许可证**: BSD-3-Clause
 
-## Release
+## 发布
 
-- **Latest**: `v1.4.4` (2022-04-26)
-- **Last commit**: 2024-04-18
-- **Assets in release**: 7
+- **最新版本**: `v1.4.4` (2022-04-26)
+- **最近提交**: 2024-04-18
+- **Release 含资产**: 7 个
 
-## Popularity
+## 流行度
 
-- **Stars**: 59,573 · **Forks**: 3,134 · **Open issues**: 358 · **Contributors**: 40
+- **Star**: 59,573 · **Fork**: 3,134 · **开放 issue**: 358 · **贡献者**: 40
 
-## Totals (cumulative)
+## 累计统计
 
-- **Releases**: 14 · **Merged PRs**: 53 · **Open PRs**: 61 · **Closed issues**: 242 · **Open issues**: 116 · **Commits**: 165
+- **发布数**: 14 · **已合并 PR**: 53 · **开放 PR**: 61 · **已关闭 issue**: 242 · **开放 issue**: 116 · **提交数**: 165
 
-## Recent activity
+## 最近活动
 
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 1 | 0 | 1 | 0 |
 | last60d | 2026-07-12 | 0 | 0 | 3 | 0 | 2 | 0 |
@@ -62,10 +62,10 @@ Lowest-scoring checks:
 | 360d | 2025-09-15 | 0 | 0 | 8 | 2 | 12 | 0 |
 | last720d | 2024-09-20 | 0 | 0 | 21 | 2 | 19 | 0 |
 
-## Release assets
+## Release 资产
 
-| Asset | Size | Target |
-|-------|-----:|--------|
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
 | [mkcert-v1.4.4-darwin-amd64](https://github.com/FiloSottile/mkcert/releases/download/v1.4.4/mkcert-v1.4.4-darwin-amd64) | 5.1 MiB | `native/darwin/x64` |
 | [mkcert-v1.4.4-darwin-arm64](https://github.com/FiloSottile/mkcert/releases/download/v1.4.4/mkcert-v1.4.4-darwin-arm64) | 4.9 MiB | `native/darwin/arm64` |
 | [mkcert-v1.4.4-linux-amd64](https://github.com/FiloSottile/mkcert/releases/download/v1.4.4/mkcert-v1.4.4-linux-amd64) | 4.6 MiB | `native/linux/x64` |
@@ -74,12 +74,12 @@ Lowest-scoring checks:
 | [mkcert-v1.4.4-windows-amd64.exe](https://github.com/FiloSottile/mkcert/releases/download/v1.4.4/mkcert-v1.4.4-windows-amd64.exe) | 4.7 MiB | `native/win/x64` |
 | [mkcert-v1.4.4-windows-arm64.exe](https://github.com/FiloSottile/mkcert/releases/download/v1.4.4/mkcert-v1.4.4-windows-arm64.exe) | 4.4 MiB | `native/win/arm64` |
 
-## Distribution status
+## 发行版状态
 
-Reported by **59** distros on [repology.org](https://repology.org/project/mkcert). **52** are ✅ on the latest upstream release, **5** are ⚠️ on an older version.
+在 [repology.org](https://repology.org/project/mkcert) 上共有 **59** 个发行版报告此项目。**52** 个 ✅ 已是最新上游版本，**5** 个 ⚠️ 使用旧版本。
 
-| Distro | Version | Status |
-|--------|---------|--------|
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
 | Debian unstable | `1.4.4` | ✅ latest |
 | Debian 14 | `1.4.4` | ✅ latest |
 | Debian 13 | `1.4.4` | ✅ latest |
@@ -92,13 +92,13 @@ Reported by **59** distros on [repology.org](https://repology.org/project/mkcert
 | Alpine edge | `1.4.4` | ✅ latest |
 | openSUSE Tumbleweed | `1.4.4` | ✅ latest |
 
-## Improve this data
+## 改进这些数据
 
-Install metadata for mkcert lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `mkcert` is missing, out of date, or installs incorrectly, please open an issue or PR there:
+mkcert 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `mkcert` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
 
-- **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/mkcert.yml> (or whichever path the index uses)
+- **提交 issue**: <https://github.com/x-cmd/install/issues/new>
+- **编辑包条目**: <https://github.com/x-cmd/install/edit/main/mkcert.yml>（或索引实际使用的路径）
 
-The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
+本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T21:13:49Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T21:13:50Z._
