@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.4.4"
   latestRelease: "v1.4.4"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T21:13:44Z
+  collectedAt: 2026-09-10T22:42:52Z
 timeline:
   created: 2018-06-25
   lastCommit: 2024-04-18
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2022-04-26
   lastPrerelease: 
 popularity:
-  star: 59573
+  star: 59574
   watcher: 509
   fork: 3134
   release: 14
@@ -83,7 +83,7 @@ total:
   commit: 165
 ---
 path: /home/runner/.x-repo/github.com/FiloSottile/mkcert
-collectedAt: 2026-09-10T21:13:45Z
+collectedAt: 2026-09-10T22:42:52Z
 loc:
   Go:
     code: 1136
