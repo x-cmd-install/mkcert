@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 5303728,
       "digest": null,
-      "download_count": 356816,
+      "download_count": 356929,
       "created_at": "2022-04-26T17:52:22Z",
       "updated_at": "2022-04-26T17:52:22Z",
       "browser_download_url": "https://github.com/FiloSottile/mkcert/releases/download/v1.4.4/mkcert-v1.4.4-darwin-amd64"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 5174450,
       "digest": null,
-      "download_count": 734374,
+      "download_count": 734871,
       "created_at": "2022-04-26T17:52:23Z",
       "updated_at": "2022-04-26T17:52:23Z",
       "browser_download_url": "https://github.com/FiloSottile/mkcert/releases/download/v1.4.4/mkcert-v1.4.4-darwin-arm64"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 4788866,
       "digest": null,
-      "download_count": 13749042,
+      "download_count": 13760943,
       "created_at": "2022-04-26T17:52:23Z",
       "updated_at": "2022-04-26T17:52:24Z",
       "browser_download_url": "https://github.com/FiloSottile/mkcert/releases/download/v1.4.4/mkcert-v1.4.4-linux-amd64"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 4763091,
       "digest": null,
-      "download_count": 12579,
+      "download_count": 12583,
       "created_at": "2022-04-26T17:52:24Z",
       "updated_at": "2022-04-26T17:52:24Z",
       "browser_download_url": "https://github.com/FiloSottile/mkcert/releases/download/v1.4.4/mkcert-v1.4.4-linux-arm"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 4633188,
       "digest": null,
-      "download_count": 946674,
+      "download_count": 948207,
       "created_at": "2022-04-26T17:52:25Z",
       "updated_at": "2022-04-26T17:52:25Z",
       "browser_download_url": "https://github.com/FiloSottile/mkcert/releases/download/v1.4.4/mkcert-v1.4.4-linux-arm64"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 4896256,
       "digest": null,
-      "download_count": 873998,
+      "download_count": 874926,
       "created_at": "2022-04-26T17:52:25Z",
       "updated_at": "2022-04-26T17:52:26Z",
       "browser_download_url": "https://github.com/FiloSottile/mkcert/releases/download/v1.4.4/mkcert-v1.4.4-windows-amd64.exe"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 4642304,
       "digest": null,
-      "download_count": 87684,
+      "download_count": 87718,
       "created_at": "2022-04-26T17:52:26Z",
       "updated_at": "2022-04-26T17:52:27Z",
       "browser_download_url": "https://github.com/FiloSottile/mkcert/releases/download/v1.4.4/mkcert-v1.4.4-windows-arm64.exe"
