@@ -1,17 +1,58 @@
-- repo: kali_rolling
-  subrepo: main
+- repo: manjaro_stable
+  subrepo: extra
   srcname: mkcert
-  binnames:
-    - mkcert
+  binname: mkcert
   visiblename: mkcert
   version: 1.4.4
-  origversion: 1.4.4-1
+  origversion: 1.4.4-3
   status: newest
+  summary: Simple tool for making locally-trusted development certificates
+  licenses:
+    - BSD
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: mkcert
+  binname: mkcert
+  visiblename: mkcert
+  version: 1.4.4
+  origversion: 1.4.4-3
+  status: newest
+  summary: Simple tool for making locally-trusted development certificates
+  licenses:
+    - BSD
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: mkcert
+  binname: mkcert
+  visiblename: mkcert
+  version: 1.4.4
+  origversion: 1.4.4-3
+  status: newest
+  summary: Simple tool for making locally-trusted development certificates
+  licenses:
+    - BSD
+- repo: nix_stable_24_05
+  srcname: mkcert
+  visiblename: mkcert
+  version: 1.4.4
+  origversion: null
+  status: newest
+  summary: A simple tool for making locally-trusted development certificates
   maintainers:
-    - team+pkg-go@tracker.debian.org
-    - creekorful@debian.org
-  categories:
-    - misc
+    - fallback-mnt-nix@repology
+  licenses:
+    - BSD-3-Clause
+- repo: nix_stable_24_11
+  srcname: mkcert
+  visiblename: mkcert
+  version: 1.4.4
+  origversion: null
+  status: newest
+  summary: Simple tool for making locally-trusted development certificates
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - BSD-3-Clause
 - repo: alpine_edge
   subrepo: testing
   srcname: mkcert
@@ -23,6 +64,17 @@
   summary: simple zero-config tool to make locally trusted development certificates with any names you'd like
   maintainers:
     - apostnikov@gmail.com
+  licenses:
+    - BSD-3-Clause
+- repo: nix_stable_25_05
+  srcname: mkcert
+  visiblename: mkcert
+  version: 1.4.4
+  origversion: null
+  status: newest
+  summary: Simple tool for making locally-trusted development certificates
+  maintainers:
+    - fallback-mnt-nix@repology
   licenses:
     - BSD-3-Clause
 - repo: alt_p11
@@ -205,6 +257,17 @@
     - BSD-3-Clause
   categories:
     - Unspecified
+- repo: nix_stable_25_11
+  srcname: mkcert
+  visiblename: mkcert
+  version: 1.4.4
+  origversion: null
+  status: newest
+  summary: Simple tool for making locally-trusted development certificates
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - BSD-3-Clause
 - repo: fedora_43
   subrepo: release
   srcname: mkcert
@@ -303,6 +366,20 @@
   origversion: null
   status: rolling
   summary: Simple tool to make locally trusted development certificates
+- repo: kali_rolling
+  subrepo: main
+  srcname: mkcert
+  binnames:
+    - mkcert
+  visiblename: mkcert
+  version: 1.4.4
+  origversion: 1.4.4-1
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - creekorful@debian.org
+  categories:
+    - misc
 - repo: liguros_stable
   srcname: app-misc/mkcert
   visiblename: app-misc/mkcert
@@ -343,83 +420,6 @@
     - BSD
   categories:
     - security
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: mkcert
-  binname: mkcert
-  visiblename: mkcert
-  version: 1.4.4
-  origversion: 1.4.4-3
-  status: newest
-  summary: Simple tool for making locally-trusted development certificates
-  licenses:
-    - BSD
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: mkcert
-  binname: mkcert
-  visiblename: mkcert
-  version: 1.4.4
-  origversion: 1.4.4-3
-  status: newest
-  summary: Simple tool for making locally-trusted development certificates
-  licenses:
-    - BSD
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: mkcert
-  binname: mkcert
-  visiblename: mkcert
-  version: 1.4.4
-  origversion: 1.4.4-3
-  status: newest
-  summary: Simple tool for making locally-trusted development certificates
-  licenses:
-    - BSD
-- repo: nix_stable_24_05
-  srcname: mkcert
-  visiblename: mkcert
-  version: 1.4.4
-  origversion: null
-  status: newest
-  summary: A simple tool for making locally-trusted development certificates
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - BSD-3-Clause
-- repo: nix_stable_24_11
-  srcname: mkcert
-  visiblename: mkcert
-  version: 1.4.4
-  origversion: null
-  status: newest
-  summary: Simple tool for making locally-trusted development certificates
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - BSD-3-Clause
-- repo: nix_stable_25_05
-  srcname: mkcert
-  visiblename: mkcert
-  version: 1.4.4
-  origversion: null
-  status: newest
-  summary: Simple tool for making locally-trusted development certificates
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - BSD-3-Clause
-- repo: nix_stable_25_11
-  srcname: mkcert
-  visiblename: mkcert
-  version: 1.4.4
-  origversion: null
-  status: newest
-  summary: Simple tool for making locally-trusted development certificates
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - BSD-3-Clause
 - repo: nix_stable_26_05
   srcname: mkcert
   visiblename: mkcert
@@ -470,7 +470,7 @@
   licenses:
     - BSD
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: mkcert
   binnames:
     - mkcert
@@ -484,7 +484,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: mkcert
   binnames:
     - mkcert
@@ -622,20 +622,6 @@
   maintainers:
     - gouranga.das.khulna@gmail.com
 - repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: mkcert
-  binnames:
-    - mkcert
-  visiblename: mkcert
-  version: 1.4.3
-  origversion: 1.4.3-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - creekorful@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_22_04
   subrepo: jammy-updates/universe
   srcname: mkcert
   binnames:
@@ -646,6 +632,20 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - creekorful@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: mkcert
+  binnames:
+    - mkcert
+  visiblename: mkcert
+  version: 1.4.3
+  origversion: 1.4.3-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
     - creekorful@debian.org
   categories:
     - universe/misc
