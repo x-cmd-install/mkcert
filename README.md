@@ -45,22 +45,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 59,804 · **Forks**: 3,244 · **Open issues**: 359 · **Contributors**: 40
+- **Stars**: 59,811 · **Forks**: 3,255 · **Open issues**: 360 · **Contributors**: 40
 
 ## Totals (cumulative)
 
-- **Releases**: 14 · **Merged PRs**: 53 · **Open PRs**: 60 · **Closed issues**: 242 · **Open issues**: 117 · **Commits**: 165
+- **Releases**: 14 · **Merged PRs**: 53 · **Open PRs**: 60 · **Closed issues**: 242 · **Open issues**: 118 · **Commits**: 165
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 0 | 0 | 0 | 0 | 1 | 0 |
-| last60d | 2026-08-31 | 0 | 0 | 0 | 0 | 1 | 0 |
-| 90d | 2026-08-01 | 0 | 0 | 1 | 0 | 2 | 0 |
-| last180d | 2026-05-03 | 0 | 0 | 5 | 0 | 9 | 0 |
-| 360d | 2025-11-04 | 0 | 0 | 7 | 2 | 13 | 0 |
-| last720d | 2024-11-09 | 0 | 0 | 20 | 2 | 20 | 0 |
+| 30d | 2026-10-01 | 0 | 0 | 0 | 0 | 2 | 0 |
+| last60d | 2026-09-01 | 0 | 0 | 0 | 0 | 2 | 0 |
+| 90d | 2026-08-02 | 0 | 0 | 1 | 0 | 3 | 0 |
+| last180d | 2026-05-04 | 0 | 0 | 5 | 0 | 10 | 0 |
+| 360d | 2025-11-05 | 0 | 0 | 7 | 2 | 13 | 0 |
+| last720d | 2024-11-10 | 0 | 0 | 20 | 2 | 21 | 0 |
 
 ## Release assets
 
@@ -101,4 +101,4 @@ Install metadata for mkcert lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T07:06:06Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T06:55:50Z._
