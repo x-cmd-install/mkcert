@@ -45,7 +45,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 59,814 · **Forks**: 3,272 · **Open issues**: 360 · **Contributors**: 40
+- **Stars**: 59,817 · **Forks**: 3,290 · **Open issues**: 360 · **Contributors**: 40
 
 ## Totals (cumulative)
 
@@ -55,12 +55,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 0 | 0 | 0 | 0 | 2 | 0 |
-| last60d | 2026-09-02 | 0 | 0 | 0 | 0 | 2 | 0 |
-| 90d | 2026-08-03 | 0 | 0 | 1 | 0 | 3 | 0 |
-| last180d | 2026-05-05 | 0 | 0 | 5 | 0 | 10 | 0 |
-| 360d | 2025-11-06 | 0 | 0 | 7 | 2 | 13 | 0 |
-| last720d | 2024-11-11 | 0 | 0 | 20 | 2 | 21 | 0 |
+| 30d | 2026-10-03 | 0 | 0 | 0 | 0 | 2 | 0 |
+| last60d | 2026-09-03 | 0 | 0 | 0 | 0 | 2 | 0 |
+| 90d | 2026-08-04 | 0 | 0 | 1 | 0 | 3 | 0 |
+| last180d | 2026-05-06 | 0 | 0 | 5 | 0 | 10 | 0 |
+| 360d | 2025-11-07 | 0 | 0 | 7 | 2 | 13 | 0 |
+| last720d | 2024-11-12 | 0 | 0 | 20 | 2 | 21 | 0 |
 
 ## Release assets
 
@@ -86,7 +86,7 @@ Reported by **57** distros on [repology.org](https://repology.org/project/mkcert
 | Ubuntu 26.04 LTS | `1.4.4` | ✅ latest |
 | Ubuntu 24.04 LTS | `1.4.4` | ✅ latest |
 | Arch | `1.4.4` | ✅ latest |
-| Homebrew | `1.4.4` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `1.4.4` | ✅ latest |
 | Nix unstable | `1.4.4` | ✅ latest |
 | Alpine edge | `1.4.4` | ✅ latest |
@@ -101,4 +101,4 @@ Install metadata for mkcert lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T07:26:55Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T07:45:08Z._
