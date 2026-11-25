@@ -45,7 +45,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 59,908 · **Forks**: 3,184 · **Open issues**: 361 · **Contributors**: 40
+- **Stars**: 59,920 · **Forks**: 3,187 · **Open issues**: 361 · **Contributors**: 40
 
 ## Totals (cumulative)
 
@@ -55,12 +55,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 1 | 0 | 2 | 0 |
-| last60d | 2026-09-25 | 0 | 0 | 1 | 0 | 3 | 0 |
-| 90d | 2026-08-26 | 0 | 0 | 1 | 0 | 3 | 0 |
-| last180d | 2026-05-28 | 0 | 0 | 6 | 0 | 8 | 0 |
-| 360d | 2025-11-29 | 0 | 0 | 8 | 2 | 14 | 0 |
-| last720d | 2024-12-04 | 0 | 0 | 19 | 2 | 21 | 0 |
+| 30d | 2026-10-26 | 0 | 0 | 1 | 0 | 2 | 0 |
+| last60d | 2026-09-26 | 0 | 0 | 1 | 0 | 3 | 0 |
+| 90d | 2026-08-27 | 0 | 0 | 1 | 0 | 3 | 0 |
+| last180d | 2026-05-29 | 0 | 0 | 6 | 0 | 8 | 0 |
+| 360d | 2025-11-30 | 0 | 0 | 8 | 2 | 14 | 0 |
+| last720d | 2024-12-05 | 0 | 0 | 19 | 2 | 21 | 0 |
 
 ## Release assets
 
@@ -74,24 +74,6 @@ Lowest-scoring checks:
 | [mkcert-v1.4.4-windows-amd64.exe](https://github.com/FiloSottile/mkcert/releases/download/v1.4.4/mkcert-v1.4.4-windows-amd64.exe) | 4.7 MiB | `native/win/x64` |
 | [mkcert-v1.4.4-windows-arm64.exe](https://github.com/FiloSottile/mkcert/releases/download/v1.4.4/mkcert-v1.4.4-windows-arm64.exe) | 4.4 MiB | `native/win/arm64` |
 
-## Distribution status
-
-Reported by **59** distros on [repology.org](https://repology.org/project/mkcert). **55** are ✅ on the latest upstream release, **2** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.4.4` | ✅ latest |
-| Debian 14 | `1.4.4` | ✅ latest |
-| Debian 13 | `1.4.4` | ✅ latest |
-| Ubuntu 26.04 LTS | `1.4.4` | ✅ latest |
-| Ubuntu 24.04 LTS | `1.4.4` | ✅ latest |
-| Arch | `1.4.4` | ✅ latest |
-| Homebrew | `1.4.4` | ✅ latest |
-| Fedora rawhide | `1.4.4` | ✅ latest |
-| Nix unstable | `1.4.4` | ✅ latest |
-| Alpine edge | `1.4.4` | ✅ latest |
-| openSUSE Tumbleweed | `1.4.4` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for mkcert lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `mkcert` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -101,4 +83,4 @@ Install metadata for mkcert lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:52:09Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T10:25:09Z._
